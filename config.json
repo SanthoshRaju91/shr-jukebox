@@ -1,0 +1,25 @@
+{
+  "PORT": 5000,
+  "BUILD_PATH": "public",
+  "MONGODB_URL": "mongodb://localhost:27017/shrjuke",
+  "WAIT_TIME": 10000,
+  "rapid": {
+    "deezer": {
+      "url": "https://deezerdevs-deezer.p.rapidapi.com/search",
+      "method": "GET",
+      "headers": {
+        "x-rapidapi-host": "deezerdevs-deezer.p.rapidapi.com",
+        "x-rapidapi-key": "c10543db94msh6a938fa633caad1p170e58jsn4ff13d3fbb22"
+      }
+    },
+    "bad-word": {
+      "url": "https://neutrinoapi-bad-word-filter.p.rapidapi.com/bad-word-filter",
+      "method": "POST",
+      "headers": {
+        "x-rapidapi-host": "neutrinoapi-bad-word-filter.p.rapidapi.com",
+        "x-rapidapi-key": "c10543db94msh6a938fa633caad1p170e58jsn4ff13d3fbb22",
+        "content-type": "application/x-www-form-urlencoded"
+      }
+    }
+  }
+}
